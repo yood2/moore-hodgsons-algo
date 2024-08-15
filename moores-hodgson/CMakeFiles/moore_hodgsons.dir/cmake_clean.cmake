@@ -1,6 +1,6 @@
 file(REMOVE_RECURSE
-  "CMakeFiles/moore_hodgsons.dir/main.cpp.o"
-  "CMakeFiles/moore_hodgsons.dir/main.cpp.o.d"
+  "CMakeFiles/moore_hodgsons.dir/schedule.cpp.o"
+  "CMakeFiles/moore_hodgsons.dir/schedule.cpp.o.d"
   "moore_hodgsons.cpython-39-darwin.so"
   "moore_hodgsons.pdb"
 )

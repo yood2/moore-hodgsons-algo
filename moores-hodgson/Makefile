@@ -60,7 +60,7 @@ EQUALS = =
 CMAKE_SOURCE_DIR = /Users/danielyoo/moore-hodgsons-algo
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /Users/danielyoo/moore-hodgsons-algo/build
+CMAKE_BINARY_DIR = /Users/danielyoo/moore-hodgsons-algo/moores-hodgson
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -87,9 +87,9 @@ rebuild_cache/fast: rebuild_cache
 
 # The main all target
 all: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /Users/danielyoo/moore-hodgsons-algo/build/CMakeFiles /Users/danielyoo/moore-hodgsons-algo/build//CMakeFiles/progress.marks
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/danielyoo/moore-hodgsons-algo/moores-hodgson/CMakeFiles /Users/danielyoo/moore-hodgsons-algo/moores-hodgson//CMakeFiles/progress.marks
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 all
-	$(CMAKE_COMMAND) -E cmake_progress_start /Users/danielyoo/moore-hodgsons-algo/build/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/danielyoo/moore-hodgsons-algo/moores-hodgson/CMakeFiles 0
 .PHONY : all
 
 # The main clean target
@@ -129,29 +129,29 @@ moore_hodgsons/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/moore_hodgsons.dir/build.make CMakeFiles/moore_hodgsons.dir/build
 .PHONY : moore_hodgsons/fast
 
-main.o: main.cpp.o
-.PHONY : main.o
+schedule.o: schedule.cpp.o
+.PHONY : schedule.o
 
 # target to build an object file
-main.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/moore_hodgsons.dir/build.make CMakeFiles/moore_hodgsons.dir/main.cpp.o
-.PHONY : main.cpp.o
+schedule.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/moore_hodgsons.dir/build.make CMakeFiles/moore_hodgsons.dir/schedule.cpp.o
+.PHONY : schedule.cpp.o
 
-main.i: main.cpp.i
-.PHONY : main.i
+schedule.i: schedule.cpp.i
+.PHONY : schedule.i
 
 # target to preprocess a source file
-main.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/moore_hodgsons.dir/build.make CMakeFiles/moore_hodgsons.dir/main.cpp.i
-.PHONY : main.cpp.i
+schedule.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/moore_hodgsons.dir/build.make CMakeFiles/moore_hodgsons.dir/schedule.cpp.i
+.PHONY : schedule.cpp.i
 
-main.s: main.cpp.s
-.PHONY : main.s
+schedule.s: schedule.cpp.s
+.PHONY : schedule.s
 
 # target to generate assembly for a file
-main.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/moore_hodgsons.dir/build.make CMakeFiles/moore_hodgsons.dir/main.cpp.s
-.PHONY : main.cpp.s
+schedule.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/moore_hodgsons.dir/build.make CMakeFiles/moore_hodgsons.dir/schedule.cpp.s
+.PHONY : schedule.cpp.s
 
 # Help Target
 help:
@@ -162,9 +162,9 @@ help:
 	@echo "... edit_cache"
 	@echo "... rebuild_cache"
 	@echo "... moore_hodgsons"
-	@echo "... main.o"
-	@echo "... main.i"
-	@echo "... main.s"
+	@echo "... schedule.o"
+	@echo "... schedule.i"
+	@echo "... schedule.s"
 .PHONY : help
 
 

@@ -57,7 +57,7 @@ EQUALS = =
 CMAKE_SOURCE_DIR = /Users/danielyoo/moore-hodgsons-algo
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /Users/danielyoo/moore-hodgsons-algo/build
+CMAKE_BINARY_DIR = /Users/danielyoo/moore-hodgsons-algo/moores-hodgson
 
 #=============================================================================
 # Directory level rules for the build root directory
@@ -98,14 +98,14 @@ pybind11/clean:
 CMakeFiles/moore_hodgsons.dir/all:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/moore_hodgsons.dir/build.make CMakeFiles/moore_hodgsons.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/moore_hodgsons.dir/build.make CMakeFiles/moore_hodgsons.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/Users/danielyoo/moore-hodgsons-algo/build/CMakeFiles --progress-num=1,2 "Built target moore_hodgsons"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/Users/danielyoo/moore-hodgsons-algo/moores-hodgson/CMakeFiles --progress-num=1,2 "Built target moore_hodgsons"
 .PHONY : CMakeFiles/moore_hodgsons.dir/all
 
 # Build rule for subdir invocation for target.
 CMakeFiles/moore_hodgsons.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /Users/danielyoo/moore-hodgsons-algo/build/CMakeFiles 2
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/danielyoo/moore-hodgsons-algo/moores-hodgson/CMakeFiles 2
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 CMakeFiles/moore_hodgsons.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /Users/danielyoo/moore-hodgsons-algo/build/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/danielyoo/moore-hodgsons-algo/moores-hodgson/CMakeFiles 0
 .PHONY : CMakeFiles/moore_hodgsons.dir/rule
 
 # Convenience name for target.

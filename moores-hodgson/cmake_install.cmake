@@ -39,7 +39,7 @@ endif()
 
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for each subdirectory.
-  include("/Users/danielyoo/moore-hodgsons-algo/build/pybind11/cmake_install.cmake")
+  include("/Users/danielyoo/moore-hodgsons-algo/moores-hodgson/pybind11/cmake_install.cmake")
 
 endif()
 
@@ -58,6 +58,6 @@ endif()
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   string(REPLACE ";" "\n" CMAKE_INSTALL_MANIFEST_CONTENT
        "${CMAKE_INSTALL_MANIFEST_FILES}")
-  file(WRITE "/Users/danielyoo/moore-hodgsons-algo/build/${CMAKE_INSTALL_MANIFEST}"
+  file(WRITE "/Users/danielyoo/moore-hodgsons-algo/moores-hodgson/${CMAKE_INSTALL_MANIFEST}"
      "${CMAKE_INSTALL_MANIFEST_CONTENT}")
 endif()

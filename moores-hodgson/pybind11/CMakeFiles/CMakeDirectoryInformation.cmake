@@ -3,7 +3,7 @@
 
 # Relative path conversion top directories.
 set(CMAKE_RELATIVE_PATH_TOP_SOURCE "/Users/danielyoo/moore-hodgsons-algo")
-set(CMAKE_RELATIVE_PATH_TOP_BINARY "/Users/danielyoo/moore-hodgsons-algo/build")
+set(CMAKE_RELATIVE_PATH_TOP_BINARY "/Users/danielyoo/moore-hodgsons-algo/moores-hodgson")
 
 # Force unix paths in dependencies.
 set(CMAKE_FORCE_UNIX_PATHS 1)
